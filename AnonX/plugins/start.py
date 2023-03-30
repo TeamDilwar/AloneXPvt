@@ -43,7 +43,7 @@ async def start_comm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAx0CXl6P8QACkRRkHDTVgwe6oFuIR-mbPfNoJD03jAACpwcAAk7cOFduQWA9JBN16i8E")
+            await message.reply_sticker("CAACAgUAAx0Cc4SelwACQPtkJRqt1QYEjbVluQLsjxTu9EQR7wACzQYAAiJ3OVc7jlrPQwbeBy8E")
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
@@ -173,7 +173,7 @@ async def start_comm(client, message: Message, _):
                             text="• ʏᴏᴜᴛᴜʙᴇ •", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="• sᴜᴩᴩᴏʀᴛ •", url="https://t.me/DevilsHeavenMF"
+                            text="• sᴜᴩᴩᴏʀᴛ •", url="https://t.me/the_chatting"
                         ),
                     ],
                 ]
@@ -202,7 +202,7 @@ async def start_comm(client, message: Message, _):
         out = private_panel(_, app.username, OWNER)
         if config.START_IMG_URL:
             try:
-                await message.reply_sticker("CAACAgUAAxkBAAIjTGKPYCq3keRZgNbshxtJ5k7H609OAAIZBgACYAF5VIerYoMcSln8JAQ")
+                await message.reply_sticker("CAACAgUAAx0Cc4SelwACQPtkJRqt1QYEjbVluQLsjxTu9EQR7wACzQYAAiJ3OVc7jlrPQwbeBy8E")
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
