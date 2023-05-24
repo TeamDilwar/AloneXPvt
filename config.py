@@ -14,23 +14,23 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "『˹𝑳𝒐𝒗𝒆𝒓 ✘ ℳ𝓾𝓼𝓲c‌˼』")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "『˹𝑨𝒍𝒐𝒏𝒆 ✘ 𝑴𝒖𝒔𝒊𝒄˼』")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1548904516").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6079943111").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Lover-Music/shubhamm")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AloneXBot/AloneXPvt")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/the_chatting")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/tccnetwork")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AloneXBots")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AlonesHeaven")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
@@ -76,34 +76,34 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/b747a0a99067ab0915521.mp4")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/b0cf375da1dbadc69036a.jpg",
+    "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://telegra.ph/file/b0cf375da1dbadc69036a.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
 
-GLOBAL_IMG_URL = "https://telegra.ph/file/b0cf375da1dbadc69036a.jpg"
+GLOBAL_IMG_URL = "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
 
-STATS_IMG_URL = "https://telegra.ph/file/b0cf375da1dbadc69036a.jpg"
+STATS_IMG_URL = "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
 
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/b0cf375da1dbadc69036a.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
 
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/b0cf375da1dbadc69036a.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
 
-STREAM_IMG_URL = "https://telegra.ph/file/b0cf375da1dbadc69036a.jpg"
+STREAM_IMG_URL = "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
 
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/b0cf375da1dbadc69036a.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
 
-YOUTUBE_IMG_URL = "https://telegra.ph/file/b0cf375da1dbadc69036a.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
 
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/b0cf375da1dbadc69036a.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
 
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/b0cf375da1dbadc69036a.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
 
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/b0cf375da1dbadc69036a.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg"
 
 
 def time_to_seconds(time):
