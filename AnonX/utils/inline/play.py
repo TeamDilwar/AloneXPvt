@@ -67,7 +67,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="💫 sᴜᴩᴩᴏʀᴛ 💫", url=f"https://t.me/Lover_Music_Support")
+                text="💫 sᴜᴩᴩᴏʀᴛ 💫", url=f"https://t.me/AlonesHeaven")
         ],
         [
             InlineKeyboardButton(
@@ -120,7 +120,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="💫 sᴜᴩᴩᴏʀᴛ 💫", url=f"https://t.me/Lover_Music_Support"
+                text="💫 sᴜᴩᴩᴏʀᴛ 💫", url=f"https://t.me/AlonesHeaven"
             )
         ],
         [
