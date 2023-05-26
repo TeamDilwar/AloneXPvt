@@ -42,6 +42,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
+                text=_["S_B_5"],
+                url=f"https://t.me/{app.username}?startgroup=true",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
             )
@@ -93,6 +99,12 @@ def telegram_markup_timer(_, chat_id, played, dur):
     bar += line*(10-len(bar))
     
     buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["S_B_5"],
+                url=f"https://t.me/{app.username}?startgroup=true",
+            ),
+        ],
         [
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
