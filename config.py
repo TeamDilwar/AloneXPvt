@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "『˹𝑨𝒍𝒐𝒏𝒆 ✘ 𝑴𝒖𝒔𝒊𝒄˼』")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹𝑨𝒍𝒐𝒏𝒆 ✘ 𝑴𝒖𝒔𝒊𝒄˼")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6079943111").split()))
 
@@ -30,7 +30,7 @@ SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AlonesHeaven")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
